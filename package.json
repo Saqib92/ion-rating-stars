@@ -1,6 +1,26 @@
 {
-  "name": "ion-rating",
-  "version": "0.0.0",
+  "name": "ion-rating-stars",
+  "version": "1.2.0",
+  "description": "Ionic 6 rating stars component using Angular",
+  "author": "Najam Us Saqib",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saqib92/ion-rating-stars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Saqib92/ion-rating-stars/issues"
+  },
+  "keywords": [
+    "Ionic",
+    "Ionic 5",
+    "Ionic 6",
+    "Ionic Framework",
+    "Angular",
+    "Rating",
+    "Stars",
+    "Component"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -23,6 +43,7 @@
     "zone.js": "~0.12.0"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "^15.0.4",
     "@angular/cli": "~15.0.4",
     "@angular/compiler-cli": "^15.0.0",
     "@types/jasmine": "~4.3.0",
@@ -32,6 +53,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "ng-packagr": "^15.0.0",
     "typescript": "~4.8.2"
   }
 }

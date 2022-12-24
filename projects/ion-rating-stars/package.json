@@ -1,0 +1,35 @@
+{
+  "name": "ion-rating-stars",
+  "version": "1.2.0",
+  "description": "Ionic 6 rating stars component using Angular",
+  "author": "Najam Us Saqib",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saqib92/ion-rating-stars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Saqib92/ion-rating-stars/issues"
+  },
+  "keywords": [
+    "Ionic",
+    "Ionic 5",
+    "Ionic 6",
+    "Ionic Framework",
+    "Angular",
+    "Rating",
+    "Stars",
+    "Component"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^15.0.0",
+    "@angular/core": "^15.0.0",
+    "@ionic/angular": "^6.4.1"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@ionic/angular": "^6.4.1"
+  }
+}
