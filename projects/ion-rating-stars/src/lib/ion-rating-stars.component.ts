@@ -15,6 +15,7 @@ export class IonRatingStarsComponent implements OnInit {
   @Input() filledColor: string = 'orange'
   @Input() margin: number = 5;
   @Input() disabled: boolean = false;
+  @Input() opacity: number = 0.5;
   @Output() ratingChange = new EventEmitter<any>();
 
   constructor() { }

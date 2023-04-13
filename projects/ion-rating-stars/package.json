@@ -1,6 +1,6 @@
 {
   "name": "ion-rating-stars",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Ionic 6 rating stars component using Angular",
   "author": "Najam Us Saqib",
   "license": "MIT",
@@ -15,6 +15,7 @@
     "Ionic",
     "Ionic 5",
     "Ionic 6",
+    "Ionic 7",
     "Ionic Framework",
     "Angular",
     "Rating",

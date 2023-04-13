@@ -69,6 +69,7 @@ Include the component on page template, like the example below:
   [margin]="2"
   [size]="20"
   [disabled]="false"
+  [opacity]="0.5"
   (ratingChange)="ratingChanged($event)"></ion-rating-stars>
 ```
 
@@ -82,6 +83,7 @@ Include the component on page template, like the example below:
 - margin: `number` space between stars in pixels. applies as `margin-right`. default `20`.
 - size: `number` size of stars. applies as `font-size`. default `20`.
 - disabled: `boolean` disables the events and anything on ratings. applies as `pointer-events`. default `false`.
+- opacity: `number` change stars opacity when disabled is true. applies as `number` default `0.5`
 
 ### Events
 
