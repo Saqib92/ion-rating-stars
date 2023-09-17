@@ -70,6 +70,7 @@ Include the component on page template, like the example below:
   [size]="20"
   [disabled]="false"
   [opacity]="0.5"
+  [isHalfStar]="true"
   (ratingChange)="ratingChanged($event)"></ion-rating-stars>
 ```
 
@@ -84,6 +85,7 @@ Include the component on page template, like the example below:
 - size: `number` size of stars. applies as `font-size`. default `20`.
 - disabled: `boolean` disables the events and anything on ratings. applies as `pointer-events`. default `false`.
 - opacity: `number` change stars opacity when disabled is true. applies as `number` default `0.5`
+- isHalfStar: `boolean` to Enable/Disable half stars. applies as `boolean` default `false`
 
 ### Events
 
@@ -106,5 +108,5 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License <a name = "license"></a>
 
-Copyright © 2022 [Saqb92](https://github.com/saqib92).<br />
+Copyright © 2023 [Saqb92](https://github.com/saqib92).<br />
 This project is [MIT](https://github.com/saqib92/ion-rating-stars/blob/master/LICENSE) licensed.
