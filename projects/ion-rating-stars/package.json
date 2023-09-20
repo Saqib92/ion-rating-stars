@@ -1,6 +1,6 @@
 {
   "name": "ion-rating-stars",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Ionic 6 rating stars component using Angular",
   "author": "Najam Us Saqib",
   "license": "MIT",
@@ -20,17 +20,20 @@
     "Angular",
     "Rating",
     "Stars",
-    "Component"
+    "Component",
+    "half star",
+    "half-star",
+    "Angular 16"
   ],
   "peerDependencies": {
-    "@angular/common": "^15.0.0",
-    "@angular/core": "^15.0.0",
-    "@ionic/angular": "^6.4.1"
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0",
+    "@ionic/angular": "^7.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@ionic/angular": "^6.4.1"
+    "@ionic/angular": "^7.0.0"
   }
 }

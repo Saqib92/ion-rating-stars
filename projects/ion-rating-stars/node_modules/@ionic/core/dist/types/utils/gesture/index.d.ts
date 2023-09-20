@@ -15,7 +15,7 @@ export interface GestureDetail {
   event: UIEvent;
   data?: any;
 }
-export declare type GestureCallback = (detail: GestureDetail) => boolean | void;
+export type GestureCallback = (detail: GestureDetail) => boolean | void;
 export interface Gesture {
   enable(enable?: boolean): void;
   destroy(): void;
