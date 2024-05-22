@@ -1,16 +1,15 @@
 <div>
-  <ion-icon *ngFor="let star of stars; let i = index;"
-    [name]="
-      (i+1) <= rating ? 'star' :
-      (isHalfStar && rating === i + 0.5) ? 'star-half-outline' :
-      'star-outline'"
-      (click)="rateChange(i)"
-      [ngStyle]="{
-        'color': getStarColor(i),
-        'font-size': size + 'px',
-        'margin-right': margin + 'px',
-        'opacity': disabled ? opacity : '1',
-        'pointer-events': disabled ? 'none' : ''
-      }">
+  @for(star of stars; track $index;){
+  <ion-icon
+    [name]="($index + 1) <= rating ? 'star' : (isHalfStar && rating === $index + 0.5) ? 'star-half-outline' : 'star-outline'"
+    [ngStyle]="{
+      'color': getStarColor($index),
+      'font-size': size + 'px',
+      'margin-right': margin + 'px',
+      'opacity': disabled ? opacity : '1',
+      'pointer-events': disabled ? 'none' : ''
+    }"
+    (click)="rateChange($index)">
   </ion-icon>
+  }
 </div>

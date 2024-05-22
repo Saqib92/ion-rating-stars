@@ -1,4 +1,4 @@
 export declare const addEventListener: (el: any, eventName: string, callback: EventListenerOrEventListenerObject, opts: {
-  passive?: boolean;
-  capture?: boolean;
+    passive?: boolean;
+    capture?: boolean;
 }) => (() => void);

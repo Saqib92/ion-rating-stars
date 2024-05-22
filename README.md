@@ -25,7 +25,7 @@
 
 ## ✅ Prerequisites <a name = "prerequisites"></a>
 
-The current version of the library is compatible with Ionic 6+.
+The current version of the library is compatible with Ionic 7+.
 
 ## ⬇️ Install <a name = "install"></a>
 
@@ -43,6 +43,7 @@ yarn add ion-rating-stars
 
 ## 🛠 Setup <a name = "setup"></a>
 
+For version < 1.3.x (ngModule)
 Once installed you need to import our module in the parent module for the component you will be using it in:
 
 ```js
@@ -55,6 +56,19 @@ import { IonRatingStarsModule } from 'ion-rating-stars';
 })
 export class YourModule {
 }
+```
+
+For version > 1.3.x (standalone components)
+Once installed you need to import it directly in component, you will be using it in:
+
+```js
+import { IonRatingStarsComponent } from 'ion-rating-stars';
+
+@Component({
+  ...
+  imports: [IonRatingStarsComponent, ...],
+  ...
+})
 ```
 
 ## Usage <a name = "usage"></a>
