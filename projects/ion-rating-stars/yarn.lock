@@ -2,21 +2,21 @@
 # yarn lockfile v1
 
 
-"@angular/common@^17.0.0", "@angular/common@17.3.9":
-  version "17.3.9"
-  resolved "https://registry.npmjs.org/@angular/common/-/common-17.3.9.tgz"
-  integrity sha512-tH1VfbAvNVaz6ZYa+q0DiKtbmUql1jK/3q/af74B8nVjKLHcXVWwxvBayqvrmlUt7FGANGkETIcCWrB44k47Ug==
+"@angular/common@^18.0.0", "@angular/common@17.3.9":
+  version "18.2.13"
+  resolved "https://registry.npmjs.org/@angular/common/-/common-18.2.13.tgz"
+  integrity sha512-4ZqrNp1PoZo7VNvW+sbSc2CB2axP1sCH2wXl8B0wdjsj8JY1hF1OhuugwhpAHtGxqewed2kCXayE+ZJqSTV4jw==
   dependencies:
     tslib "^2.3.0"
 
-"@angular/core@^17.0.0", "@angular/core@>=14.0.0", "@angular/core@17.3.9":
-  version "17.3.9"
-  resolved "https://registry.npmjs.org/@angular/core/-/core-17.3.9.tgz"
-  integrity sha512-x+h5BQ6islvYWGVLTz1CEgNq1/5IYngQ+Inq/tWayM6jN7RPOCydCCbCw+uOZS7MgFebkP0gYTVm14y1MRFKSQ==
+"@angular/core@^18.0.0", "@angular/core@>=16.0.0", "@angular/core@17.3.9", "@angular/core@18.2.13":
+  version "18.2.13"
+  resolved "https://registry.npmjs.org/@angular/core/-/core-18.2.13.tgz"
+  integrity sha512-8mbWHMgO95OuFV1Ejy4oKmbe9NOJ3WazQf/f7wks8Bck7pcihd0IKhlPBNjFllbF5o+04EYSwFhEtvEgjMDClA==
   dependencies:
     tslib "^2.3.0"
 
-"@angular/forms@>=14.0.0":
+"@angular/forms@>=16.0.0":
   version "17.3.9"
   resolved "https://registry.npmjs.org/@angular/forms/-/forms-17.3.9.tgz"
   integrity sha512-5b8OjK0kLghrdxkVWglgerHVp9D5WvXInXwo1KIyc2v/fGdTlyu/RFi0GLGvzq2y+7Z8TvtXWC82SB47vfx3TQ==
@@ -30,36 +30,36 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/router@>=14.0.0":
+"@angular/router@>=16.0.0":
   version "17.3.9"
   resolved "https://registry.npmjs.org/@angular/router/-/router-17.3.9.tgz"
   integrity sha512-0cRF5YBJoDbXGQsRs3wEG+DPvN4PlhEqTa0DkTr9QIDJRg5P1uiDlOclV+w3OxEMsLrmXGmhjauHaWQk07M4LA==
   dependencies:
     tslib "^2.3.0"
 
-"@ionic/angular@^7.0.0":
-  version "7.8.6"
-  resolved "https://registry.npmjs.org/@ionic/angular/-/angular-7.8.6.tgz"
-  integrity sha512-3Qe53hXpyjtx6fFcxt/NTAlauIawsGmCZJPauV5sAnSKVuX8C82C1zMAZTeJt6m2dnd71wythc98BXUXsx/UxQ==
+"@ionic/angular@^8.0.0":
+  version "8.4.1"
+  resolved "https://registry.npmjs.org/@ionic/angular/-/angular-8.4.1.tgz"
+  integrity sha512-22ghlHeIJjHDizns/huYp1sQ3Y9qYyUY9hEueIB0e8jsNhCOwhRijMIoOCZ/sfMKTbNaKX7EJ25NpVetF7mZXQ==
   dependencies:
-    "@ionic/core" "7.8.6"
+    "@ionic/core" "8.4.1"
     ionicons "^7.0.0"
     jsonc-parser "^3.0.0"
     tslib "^2.3.0"
 
-"@ionic/core@7.8.6":
-  version "7.8.6"
-  resolved "https://registry.npmjs.org/@ionic/core/-/core-7.8.6.tgz"
-  integrity sha512-HAYZdEmeJgOdo2kDlZkcCGHb+zs/vjU6iv4skbVBL7y+OnSv/oC2u83Yee8S3/aY0YAxkyBgu7hLTYH13Zc2Aw==
+"@ionic/core@8.4.1":
+  version "8.4.1"
+  resolved "https://registry.npmjs.org/@ionic/core/-/core-8.4.1.tgz"
+  integrity sha512-D5xpw5TF2wldpAWE0rHq3L+5T79EjR6d++QFpprjp+q+cFjjhOnfGD+2k7gLlWepAod9LUUigeL0JF02C2wgRQ==
   dependencies:
-    "@stencil/core" "^4.12.2"
+    "@stencil/core" "4.20.0"
     ionicons "^7.2.2"
     tslib "^2.1.0"
 
-"@stencil/core@^4.0.3", "@stencil/core@^4.12.2":
-  version "4.18.2"
-  resolved "https://registry.npmjs.org/@stencil/core/-/core-4.18.2.tgz"
-  integrity sha512-GLYbzv3Bq/oUbQk3CH09zkjISANccyE5/A1C7+1JZhdnWUx1MRuWQR9/2uzSPR7kF0sdppwzXvArl7VqYCxLOQ==
+"@stencil/core@^4.0.3", "@stencil/core@4.20.0":
+  version "4.20.0"
+  resolved "https://registry.npmjs.org/@stencil/core/-/core-4.20.0.tgz"
+  integrity sha512-WPrTHFngvN081RY+dJPneKQLwnOFD60OMCOQGmmSHfCW0f4ujPMzzhwWU1gcSwXPWXz5O+8cBiiCaxAbJU7kAg==
 
 ionicons@^7.0.0, ionicons@^7.2.2:
   version "7.4.0"
@@ -85,7 +85,7 @@ tslib@^2.1.0, tslib@^2.3.0:
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
 
-zone.js@>=0.11.0, zone.js@~0.14.0:
-  version "0.14.6"
-  resolved "https://registry.npmjs.org/zone.js/-/zone.js-0.14.6.tgz"
-  integrity sha512-vyRNFqofdaHVdWAy7v3Bzmn84a1JHWSjpuTZROT/uYn8I3p2cmo7Ro9twFmYRQDPhiYOV7QLk0hhY4JJQVqS6Q==
+zone.js@>=0.13.0, zone.js@~0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmjs.org/zone.js/-/zone.js-0.14.10.tgz"
+  integrity sha512-YGAhaO7J5ywOXW6InXNlLmfU194F8lVgu7bRntUF3TiG8Y3nBK0x1UJJuHUP/e8IyihkjCYqhCScpSwnlaSRkQ==
