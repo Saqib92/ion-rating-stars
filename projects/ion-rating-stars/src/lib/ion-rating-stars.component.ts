@@ -7,8 +7,7 @@ import { addIcons } from 'ionicons';
 @Component({
   selector: 'ion-rating-stars',
   templateUrl: 'ion-rating-stars.html',
-  styles: [
-  ],
+  styles: [],
   standalone: true,
   imports: [CommonModule, IonIcon]
 })
