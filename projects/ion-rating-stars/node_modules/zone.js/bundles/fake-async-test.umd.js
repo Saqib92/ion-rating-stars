@@ -692,7 +692,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
      */
     function fakeAsync(fn, options) {
         if (options === void 0) { options = {}; }
-        var _b = options.flush, flush = _b === void 0 ? false : _b;
+        var _b = options.flush, flush = _b === void 0 ? true : _b;
         // Not using an arrow function to preserve context passed from call site
         var fakeAsyncFn = function () {
             var args = [];

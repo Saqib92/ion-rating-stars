@@ -642,7 +642,7 @@ function resetFakeAsyncZone() {
  * @experimental
  */
 function fakeAsync(fn, options = {}) {
-    const { flush = false } = options;
+    const { flush = true } = options;
     // Not using an arrow function to preserve context passed from call site
     const fakeAsyncFn = function (...args) {
         const ProxyZoneSpec = getProxyZoneSpec();

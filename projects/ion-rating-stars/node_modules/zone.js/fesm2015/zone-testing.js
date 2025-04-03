@@ -441,6 +441,7 @@ function patchJest(Zone) {
             };
             context[methodName].each = wrapTestFactoryInZone(originalJestFn.each);
             context[methodName].todo = originalJestFn.todo;
+            context[methodName].failing = originalJestFn.failing;
         });
         context.it.only = context.fit;
         context.it.skip = context.xit;
@@ -1673,7 +1674,7 @@ function resetFakeAsyncZone() {
  * @experimental
  */
 function fakeAsync(fn, options = {}) {
-    const { flush = false } = options;
+    const { flush = true } = options;
     // Not using an arrow function to preserve context passed from call site
     const fakeAsyncFn = function (...args) {
         const ProxyZoneSpec = getProxyZoneSpec();
